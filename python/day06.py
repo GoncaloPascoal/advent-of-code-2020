@@ -55,7 +55,7 @@ def parse_file(path):
 
     return [line.strip() for line in f]
 
-lines = parse_file('../data/day6.txt')
+lines = parse_file('../data/day06.txt')
 
 groups_anyone = anyone(lines)
 groups_everyone = everyone(lines)

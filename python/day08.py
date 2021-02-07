@@ -54,7 +54,7 @@ def fix_loop(instructions):
             if halts:
                 return acc
 
-instructions = parse_file('../data/day8.txt')
+instructions = parse_file('../data/day08.txt')
 
 # Part 1
 print(find_loop(instructions)[0])

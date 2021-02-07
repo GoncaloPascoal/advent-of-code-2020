@@ -25,7 +25,7 @@ def find_seat(seat_ids):
     
     return None
 
-lines = parse_file('../data/day5.txt')
+lines = parse_file('../data/day05.txt')
 seat_ids = set(map(get_seat_id, lines))
 print(max(seat_ids))
 print(find_seat(seat_ids))

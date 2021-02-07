@@ -89,6 +89,6 @@ def count_valid_with_validation(passports):
     
     return count
 
-passports = parse_file("../data/day4.txt")
+passports = parse_file("../data/day04.txt")
 print(count_valid(passports))
 print(count_valid_with_validation(passports))

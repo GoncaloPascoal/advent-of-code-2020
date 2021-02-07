@@ -31,7 +31,7 @@ def find_triplet(numbers):
             return first, second, third
 
 
-numbers = get_set_from_file("../data/day1.txt")
+numbers = get_set_from_file("../data/day01.txt")
 result = find_pair(numbers, 2020)
 
 if result:

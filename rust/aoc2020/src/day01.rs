@@ -50,7 +50,7 @@ fn find_triplet(set: &HashSet<i32>) -> Option<(i32, i32, i32)> {
 }
 
 pub fn print_results() {
-    let set = parse_file("../../data/day1.txt");
+    let set = parse_file("../../data/day01.txt");
 
     let result = find_pair(&set, 2020);
     match result {

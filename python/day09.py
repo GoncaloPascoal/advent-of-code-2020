@@ -53,7 +53,7 @@ def find_weakness(numbers, invalid):
     
     return min(numbers[first_idx:last_idx]) + max(numbers[first_idx:last_idx])
 
-numbers = parse_file('../data/day9.txt')
+numbers = parse_file('../data/day09.txt')
 
 # Part 1
 invalid = find_invalid(numbers, 25)

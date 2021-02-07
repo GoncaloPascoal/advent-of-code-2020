@@ -31,6 +31,6 @@ def count_trees(grid, right, down):
 
     return count
 
-grid = parse_file('../data/day3.txt')
+grid = parse_file('../data/day03.txt')
 print(count_trees(grid, 3, 1))
 print(count_trees(grid, 1, 1) * count_trees(grid, 3, 1) * count_trees(grid, 5, 1) * count_trees(grid, 7, 1) * count_trees(grid, 1, 2))

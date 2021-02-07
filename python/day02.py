@@ -48,6 +48,6 @@ def check_valid_new_policy(passwords):
     
     return count
 
-passwords = parse_file("../data/day2.txt")
+passwords = parse_file("../data/day02.txt")
 print(check_valid(passwords))
 print(check_valid_new_policy(passwords))

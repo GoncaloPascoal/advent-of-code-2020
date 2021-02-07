@@ -50,7 +50,7 @@ def count_inner_bags(rules, bag_str):
 
     return num_bags
 
-lines = parse_file('../data/day7.txt')
+lines = parse_file('../data/day07.txt')
 rules = parse_rules(lines)
 
 # Part 1
