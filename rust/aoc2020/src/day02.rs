@@ -25,7 +25,7 @@ fn parse_file(path: &str) -> Vec<PasswordPolicy> {
     }
     s = s.trim().to_string();
 
-    let mut policies: Vec<PasswordPolicy> = Vec::new();
+    let mut policies = vec![];
 
     for line in s.lines() {
         // Parse lines formatted as [min]-[max] [char]: [password]
